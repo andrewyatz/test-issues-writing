@@ -31,9 +31,8 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: workstream
+    id: raising-group
     attributes:
-      id: raising-group
       label: Which work stream/groups are raising the issue?
       description: You may select more than one. You can select other and mention the group below
       options:
