@@ -8,23 +8,26 @@ body:
         Please fill out the form to raise an issue at TASC. Your issue will be reviewed at the earliest oppertunity
   - type: textarea
     id: problem
-    label: Issue statement
-    description: What is the issue you have noted
-    value: Please describe the issue here
+    attributes:
+      label: Issue statement
+      description: What is the issue you have noted
+      value: Please describe the issue here
     validations:
       required: true
   - type: textarea
     id: solution
-    label: Proposed solution(s)
-    description: What solutions have you considered to resolve this issue?
-    value: Please describe your solution. If you do not have one yet leave this section blank
+    attributes:
+      label: Proposed solution(s)
+      description: What solutions have you considered to resolve this issue?
+      value: Please describe your solution. If you do not have one yet leave this section blank
     validations:
       required: false
   - type: textarea
     id: context
-    label: Additional context
-    description: What additional context or knowledge is needed?
-    value: Please provide any additional pieces of information you feel is relevant to this issue
+    attributes:
+      label: Additional context
+      description: What additional context or knowledge is needed?
+      value: Please provide any additional pieces of information you feel is relevant to this issue
     validations:
       required: false
   - type: checkboxes
