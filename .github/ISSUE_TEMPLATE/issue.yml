@@ -49,16 +49,16 @@ body:
         - label: GIF
         - label: Tech team
         - label: Other
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
+    id: other-raising-group
     attributes:
-      id: other-raising-group
       label: Which other group is raising the issue?
       placeholder: Please state the groups and comma separate them
   - type: checkboxes
+    id: impact-group
     attributes:
-      id: impact-group
       label: Which work stream/groups do you think will be impacted by this?
       description: You may select more than one or leave this blank
       options:
@@ -74,12 +74,12 @@ body:
         - label: GIF
         - label: Tech team
         - label: Other
-      validations:
-        required: false
+    validations:
+      required: false
   - type: input
+    id: other-impact-group
     attributes:
-      id: other-impact-group
       label: Which other group is raising the issue?
       placeholder: Please state the groups and comma separate them
-      validations:
-        required: false
+    validations:
+      required: false
